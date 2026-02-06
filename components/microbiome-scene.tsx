@@ -183,7 +183,7 @@ function FloatingParticles() {
 /*  DNA-like double helix spiral                                      */
 /* ------------------------------------------------------------------ */
 function DNAHelix({ position }: { position: [number, number, number] }) {
-  const groupRef = useRef<THREE.Group>(null);
+  const groupRef = useRef<any>(null);
 
   const { strand1, strand2, bridges } = useMemo(() => {
     const s1: { pos: [number, number, number]; key: string }[] = [];
