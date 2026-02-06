@@ -75,13 +75,13 @@ export default function HeroSection() {
           </span>
         </div>
 
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-foreground leading-[1.05] text-balance">
+        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.05] text-balance text-emerald-900">
           The Future of{" "}
-          <span className="text-primary">Oral Care</span>{" "}
+          <span className="text-emerald-800">Oral Care</span>{" "}
           Is Alive
         </h1>
 
-        <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
+        <p className="mt-6 text-lg md:text-xl text-red-700 max-w-2xl mx-auto leading-relaxed text-pretty">
           Harness the power of beneficial bacteria. Our microbiome toothpaste
           works with your body&apos;s natural ecosystem to deliver lasting
           freshness, protection, and a healthier smile.
@@ -90,7 +90,7 @@ export default function HeroSection() {
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#cta"
-            className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold text-lg animate-pulse-glow hover:scale-105 transition-transform"
+            className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-blue-600 text-white font-semibold text-lg hover:scale-105 transition-transform"
           >
             Experience the Future
             <svg
