@@ -13,15 +13,17 @@ export default function Home() {
     <>
       <WebGLIndicator />
       <MicrobiomeSceneWrapper />
-      <Navbar />
-      <HeroSection />
-      <main>
-        <ProblemSection />
-        <SolutionSection />
-        <BenefitsSection />
-        <CtaSection />
-      </main>
-      <Footer />
+      <div className="relative z-20 text-white">
+        <Navbar />
+        <HeroSection />
+        <main>
+          <ProblemSection />
+          <SolutionSection />
+          <BenefitsSection />
+          <CtaSection />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }
