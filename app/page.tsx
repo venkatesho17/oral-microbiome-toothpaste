@@ -1,8 +1,23 @@
+import Navbar from "../components/navbar";
+import HeroSection from "../components/hero-section";
+import ProblemSection from "../components/problem-section";
+import SolutionSection from "../components/solution-section";
+import BenefitsSection from "../components/benefits-section";
+import CtaSection from "../components/cta-section";
+import Footer from "../components/footer";
+
 export default function Home() {
   return (
-    <main style={{fontFamily: 'system-ui, sans-serif', padding: 48}}>
-      <h1>Oral Microbiome Toothpaste</h1>
-      <p>This is a minimal fallback page so the site can build and deploy.</p>
-    </main>
-  )
+    <>
+      <Navbar />
+      <HeroSection />
+      <main>
+        <ProblemSection />
+        <SolutionSection />
+        <BenefitsSection />
+        <CtaSection />
+      </main>
+      <Footer />
+    </>
+  );
 }
