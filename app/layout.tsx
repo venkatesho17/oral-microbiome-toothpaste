@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Oral Microbiome Toothpaste',
-  description: 'Minimal fallback layout',
+  description: 'Oral Microbiome Toothpaste — landing page',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
