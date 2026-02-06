@@ -473,8 +473,9 @@ export default function MicrobiomeScene() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
+          // lowered opacity to make the WebGL canvas more visible while keeping the soft overlay
           background:
-            "linear-gradient(180deg, rgba(240,253,249,0.65) 0%, rgba(240,253,249,0.2) 40%, rgba(240,253,249,0.65) 100%)",
+            "linear-gradient(180deg, rgba(240,253,249,0.18) 0%, rgba(240,253,249,0.06) 40%, rgba(240,253,249,0.18) 100%)",
         }}
       />
     </div>
