@@ -291,7 +291,7 @@ function BiofilmRing({
   color?: string;
   rotationSpeed?: number;
 }) {
-  const groupRef = useRef<THREE.Group>(null);
+  const groupRef = useRef<any>(null);
 
   const dots = useMemo(() => {
     return Array.from({ length: count }, (_, i) => {
