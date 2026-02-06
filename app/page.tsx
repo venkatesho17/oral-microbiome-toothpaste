@@ -5,10 +5,12 @@ import SolutionSection from "../components/solution-section";
 import BenefitsSection from "../components/benefits-section";
 import CtaSection from "../components/cta-section";
 import Footer from "../components/footer";
+import WebGLIndicator from "../components/webgl-indicator";
 
 export default function Home() {
   return (
     <>
+      <WebGLIndicator />
       <Navbar />
       <HeroSection />
       <main>
